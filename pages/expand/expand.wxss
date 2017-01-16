@@ -1,0 +1,61 @@
+
+
+.section{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.section-view{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100rpx;
+}
+
+.title{
+    position: absolute;
+    text-align: left;
+    width: 70%;
+    font-size: 32rpx;
+    color: black;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.subTitle{
+  position: absolute;
+  margin-top:6%;
+  width: 50%;
+  text-align: right;
+  margin-left: 35%;
+  font-size: 24rpx;
+  color: #969696;
+}
+
+.icon{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+.status{
+    position: absolute;
+
+}
+
+.indicator{
+  position: absolute;
+  width: 35rpx;
+  height: 35rpx;
+  margin-top: 5%;
+  margin-left: 85%;
+}
+
+.margin{
+    width: 100%;
+    height: 60rpx;
+    background-color: #fbf9fe;
+}

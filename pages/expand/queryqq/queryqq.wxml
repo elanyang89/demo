@@ -1,0 +1,24 @@
+
+<view class="container">
+
+  <view class="page-body">
+
+    <view class="header">
+        <image class = "logo" src = "/image/query.png"></image>
+        <text class = "title">让骗子无处可逃</text>
+        <input class="qq-input" type="number" placeholder="查询是否诈骗专用QQ号" />
+        <image class = "search" src = "/image/search.png" bindtap="onSearchBtnClick" ></image>
+    </view>
+    <view class="footer">
+        <text class = "info-text">面对网络诈骗，腾讯绝不手软</text>
+        <view class="left-line-view">
+            <view class = "left-line"></view>
+        </view>
+        <view class = "right-line-view">
+            <view class = "right-line" ></view>
+        </view>
+    </view>
+      
+  </view>
+
+</view>

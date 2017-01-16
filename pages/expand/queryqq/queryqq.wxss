@@ -1,0 +1,102 @@
+
+
+.header{
+    background-color: #247fed;
+    width: 100%;
+    height: 55%;
+    position: absolute;
+    display: flex;
+}
+
+.footer{
+    background-color: #247fed;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.logo{
+    width: 204rpx;
+    height: 214rpx;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: -102rpx;
+}
+
+.title{
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 38rpx;
+    position: absolute;
+    top: 25%;
+    margin-top: 250rpx;
+}
+
+.qq-input{
+
+    border-radius: 2%;
+    background-color: #ffffff;
+    font-size: 22rpx;
+    width: 70%;
+    height: 70rpx;
+    left: 10%;
+    position: absolute;
+    top: 25%;
+    margin-top: 320rpx;
+    padding: 0 5%;
+}
+.search{
+    width: 42rpx;
+    height: 42rpx;
+    position: absolute;
+    top: 25%;
+    margin-top: 330rpx;
+    right: 10%;
+    margin-right: 21rpx;
+}
+
+.info-text{
+    left: 50%;
+    margin-left: -180rpx;
+    color: #708d83;
+    align-content:center;
+    font-size: 28rpx;
+    position: absolute;
+    top: 10%;
+}
+
+.left-line-view{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    height: 14px;
+    width: 18%;
+}
+
+.left-line{
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #708d83; 
+}
+
+.right-line-view{
+    position: absolute;
+    top:12%;
+    height: 14px;
+    width: 18%;
+    right: 5%;
+}
+
+.right-line{
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #708d83; 
+}
+
+.canvas{
+    width: 100%;
+    position: absolute;
+}

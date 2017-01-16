@@ -1,0 +1,196 @@
+.zzbHeader{
+    background-color: #232736;
+    width: 100%;
+    height: 52%;
+    position: absolute;
+}
+
+.zzbFooter{
+    background-color: #ffffff;
+    width: 100%;
+    height: 48%;
+    top: 52%;
+    position: absolute;
+}
+
+.zzbLogo{
+    width: 163rpx;
+    height: 185rpx;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -82.5rpx;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    background-color: #232736;
+    font-size: 44rpx;
+    color: #ffffff; 
+    top: 30%;
+    margin-top: 270rpx;
+    position: absolute;
+}
+
+.subTitle{
+    width: 100%;
+    text-align: center;
+    color: #969696;
+    background-color: #232736;
+    font-size: 28rpx;
+    top: 30%;
+    margin-top: 330rpx;
+    position: absolute;
+}
+
+
+.footer-view1{
+    background-color: #ffffff;
+    width: 50%;
+    height: 33%;
+    position: absolute;
+}
+
+.footer-image{
+    width: 46rpx;
+    height: 52rpx;
+    left: 45%;
+    top: 30%;
+    position: absolute;
+}
+
+.footer-text{
+    width: 100%;
+    text-align: center;
+    top: 70%;
+    color: black;
+    font-size: 30rpx;
+    position: absolute;
+}
+
+.footer-view2{
+
+    background-color: #ffffff;
+    width: 50%;
+    height: 33%;
+    left: 50%;
+    position: absolute;
+}
+
+.footer-view3{
+    background-color: #ffffff;
+    width: 50%;
+    height: 33%;
+    top: 33%;
+    position: absolute;
+}
+
+.footer-view4{
+    width: 50%;
+    height: 33%;
+    left: 50%;
+    top: 33%;
+    position: absolute;
+}
+
+.footer-view5{
+    background-color: #ffffff;
+    width: 50%;
+    height: 33%;
+    top: 66%;
+    position: absolute;
+}
+
+.footer-view6{
+    background-color: #ffffff;
+    width: 50%;
+    height: 33%;
+    top: 66%;
+    left: 50%;
+    position: absolute;
+}
+
+.view-header-line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #dedede; 
+}
+.view-left-line{
+    height: 101%;
+    width: 1px;
+    border-left: 1px solid #dedede; 
+}
+
+/*func_view*/
+
+.func_container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.func_view{
+    position: absolute;
+    border-radius: 2%;
+    width: 300px;
+    height: 385px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -200px;
+    background-color: #ffffff;
+}
+
+.func_title{
+    position: absolute;
+    top: 10%;
+    margin-top: 130rpx;
+    width: 100%;
+    text-align: center;
+    font-size: 36rpx;
+    color: black;
+}
+
+.func_desc{
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    margin-left: 10%;
+    margin-top: 200rpx;
+    text-align: left;
+    font-size: 28rpx;
+    color: #dedede;
+}
+
+.func_icon{
+    position: absolute;
+    top: 10%;
+    width: 92rpx;
+    height: 104rpx;
+    left: 50%;
+    margin-left: -46rpx;
+}
+
+.func_image{
+    position: absolute;
+    width: 355rpx;
+    height: 140rpx;
+    top: 10%;
+    left: 50%;
+    margin-left: -180rpx;
+    margin-top: 300rpx;
+}
+
+.func_button{
+    position: absolute;
+    width: 80%;
+    height: 75rpx;
+    font-size: 26rpx;
+    left: 50%;
+    margin-left: -40%;
+    bottom: 10%;
+    background-color: #ffcd33;
+    color: #ffffff;
+}

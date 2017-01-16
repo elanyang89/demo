@@ -1,0 +1,62 @@
+<import src="../common/footer.wxml" />
+<view class="container">
+
+  <view class="page-body">
+
+    <view class="zzbHeader">
+      <image class = "zzbLogo" src = "/image/zzb_logo.png"></image>
+      <text class = "title">至尊保-史上最强帐号保护</text>
+      <text class = "subTitle">您已享受至尊保保护20天</text>
+    </view>
+
+    <view class="zzbFooter">
+      <view class="footer-view1" bindtap="onDismissBtnClick" id="1">
+        <image class="footer-image" src = "/image/zzb_back.png"></image>
+        <text class="footer-text">100%找回QQ</text>
+      </view>
+      <view class="footer-view2" bindtap="onDismissBtnClick" id="2">
+        <image class="footer-image" src = "/image/zzb_pwd.png"></image>
+        <text class="footer-text">他人无法改密</text>
+        <view class = "view-left-line"></view>
+      </view>
+      <view class="footer-view3" bindtap="onDismissBtnClick" id="3">
+        <image class="footer-image" src = "/image/zzb_unrecover.png"></image>
+        <text class="footer-text">尊享实名身份</text>
+        <view class = "view-header-line"></view>
+      </view>
+      <view class="footer-view4" bindtap="onDismissBtnClick" id="4">
+        <image class="footer-image" src = "/image/zzb_name.png"></image>
+        <text class="footer-text">独享至尊铭牌</text>
+        <view class = "view-header-line"></view>
+        <view class = "view-left-line"></view>
+      </view>
+      <view class="footer-view5" bindtap="onDismissBtnClick" id="5">
+        <image class="footer-image" src = "/image/zzb_moblie.png"></image>
+        <text class="footer-text">改手机免审核期</text>
+        <view class = "view-header-line"></view>
+      </view>
+      <view class="footer-view6" bindtap="onDismissBtnClick" id="6">
+        <image class="footer-image" src = "/image/zzb_other.png"></image>
+        <text class="footer-text">敬请期待</text>
+        <view class = "view-header-line"></view>
+        <view class = "view-left-line"></view>
+      </view>
+      
+    </view>
+
+    <block wx:for-items="{{list}}" >
+       <block wx:if="{{item.open > 0}}">
+          <view class = "func_container">
+            <view class="func_view">
+              <text class="func_title">{{item.title}}</text>
+              <image class="func_icon" src = "{{item.iconPath}}"></image>
+              <image class="func_image" src = "{{item.imagePath}}"></image>
+              <text class="func_desc">{{item.desc}}</text>
+              <button class="func_button" id = "{{item.id}}" bindtap="onDismissBtnClick"> ok，我懂了 </button>
+            </view>
+          </view>
+       </block>
+    </block>
+
+  </view>
+</view>

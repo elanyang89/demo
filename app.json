@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tools/login/login",
+    "pages/tools/zzb/zzb",
+    "pages/expand/expand",
+    "pages/expand/queryqq/queryqq",
+    "pages/expand/result/result"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "QQ安全中心",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list":[
+      {
+        "pagePath" :"pages/index/index",
+        "text" : "帐号",
+        "iconPath" : "image/tab_one.png",
+        "selectedIconPath" :"image/tab_one_sel.png"
+      },
+      {
+        "pagePath" :"pages/tools/zzb/zzb",
+        "text" : "工具",
+        "iconPath" : "image/tab_two.png",
+        "selectedIconPath" :"image/tab_two_sel.png"
+      },
+      {
+        "pagePath" :"pages/expand/expand",
+        "text" : "探索",
+        "iconPath" : "image/tab_three.png",
+        "selectedIconPath" :"image/tab_three_sel.png"
+      }
+    ]
+  }
+}

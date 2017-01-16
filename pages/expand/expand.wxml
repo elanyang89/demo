@@ -1,0 +1,24 @@
+<import src="../common/footer.wxml" />
+
+<view class="container">
+    <view class="section" style="flex-direction:column;">
+      <block wx:for="{{list0}}">
+            <view class="section-view" bindtap="didSelectRowAtIndexPath" id = "{{item.id}}">
+                <text class="title">{{item.title}}</text>
+                <text class="subTitle">{{item.subTitle}}</text>
+                <image class="icon" src = "{{item.iconPath}}"></image>
+                <image class="indicator" src = "/image/arrowright.png"></image>
+            </view>
+      </block>
+      <view class="margin"></view>
+    <block wx:for="{{list1}}">
+        <view class="section-view" bindtap="didSelectRowAtIndexPath">
+            <text class="title">{{item.title}}</text>
+            <text class="subTitle">{{item.subTitle}}</text>
+            <image class="icon" src = "{{item.iconPath}}"></image>
+            <image class="indicator" src = "/image/arrowright.png"></image>
+        </view>
+    </block>
+    </view>
+    <!--<template is="footer" />-->
+</view>

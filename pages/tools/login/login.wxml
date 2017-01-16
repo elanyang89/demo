@@ -1,0 +1,11 @@
+<import src="../common/footer.wxml" />
+
+<view class="container">
+    <view class="page-body">
+        <image class="image" src = "/image/icon.png"></image>
+        <input class="account" type="number" placeholder="请输入QQ帐号" />
+        <input class="pwd" type="text" placeholder-class = "" placeholder="请输入密码"/>
+        <button class="loginBtn" bindtap="onLoginBtnClick"  hover-class="other-button-hover"> 登录 </button>
+    </view>
+    <template is="footer" />
+</view>
